@@ -6,7 +6,7 @@ const App = () => {
     <SafeAreaView style={style.wrapper}>
       <View style={style.container}>
         <Text style={style.temp}> 6</Text>
-        <Text style={style.feels}> Feels link 5</Text>
+        <Text style={style.feels}> Glass Aluminum Company</Text>
         <View style={style.highLowWrapper}>
           <Text style={style.highLow}> High :8</Text>
           <Text style={style.highLow}>Low : 6 </Text>
@@ -23,7 +23,7 @@ const App = () => {
 const style = StyleSheet.create({
   wrapper: {
     flex: 1,
-    backgroundColor: "pink",
+    backgroundColor: "white",
   },
   container: {
     /* backgroundColor: "pink", */
@@ -31,12 +31,15 @@ const style = StyleSheet.create({
     alignItems: "center",
   },
   temp: {
-    color: "black",
+    color: "white",
     fontSize: 48,
   },
   feels: {
-    color: "black",
-    fontSize: 30,
+    color: "#221EFA",
+    fontSize: 28,
+    margin: 0,
+    padding: 10,
+    backgroundColor: "#AB4180",
   },
   highLow: {
     color: "black",
